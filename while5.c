@@ -17,7 +17,7 @@ void main()
     printf("%d ",a);
     printf("%d ",b);
 
-    c=a+b;    
+    c=a+b;     //initialization
     while(c<=n)
     {
         printf("%d ",c);
