@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
     // abcd
@@ -6,34 +6,30 @@ void main()
     // ab
     // a
 
-    int i=97;
+    for (int j = 122; j >= 97; j--)
+    {
+        for (int i = 97; i <= j; i++)
+        {
+            printf("%c ", i);
+        }
+        printf("\n");
+    }
 
-    printf("%c",i);
-    i++;
-    printf("%c",i);
-    i++;
-    printf("%c",i);
-    i++;
-    printf("%c",i);
+    // for(int i=97; i<=99 ; i++)
+    // {
+    //     printf("%c",i);
+    // }
+    // printf("\n");
 
-    printf("\n");
+    // for(int i=97; i<=98 ; i++)
+    // {
+    //     printf("%c",i);
+    // }
+    // printf("\n");
 
-    i=97;
-    printf("%c",i);
-    i++;
-    printf("%c",i);
-    i++;
-    printf("%c",i);
-    printf("\n");
-
-    i=97;
-    printf("%c",i);
-    i++;
-    printf("%c",i);
-    printf("\n");
-    
-    i=97;
-    printf("%c",i);
-    printf("\n");
-    
+    // for(int i=97; i<=97 ; i++)
+    // {
+    //     printf("%c",i);
+    // }
+    // printf("\n");
 }
